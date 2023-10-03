@@ -21,11 +21,11 @@ function Experience() {
     <section
       ref={sectionRef}
       id="experience"
-      className=" scroll-mt-28 mb-28 sm:mb-40"
+      className=" scroll-mt-28 mb-28 sm:mb-40 !overflow-x-hidden"
     >
       <SectionHeading>My Experiences</SectionHeading>
       <div ref={ref}>
-        <VerticalTimeline animate={false} lineColor="">
+        <VerticalTimeline animate={true} lineColor="">
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
               <VerticalTimelineElement
@@ -36,7 +36,7 @@ function Experience() {
                     theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                   fontSize: "1.5rem",
                 }}
-                visible={inView}
+                // visible={inView}
                 contentStyle={{
                   background:
                     theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
