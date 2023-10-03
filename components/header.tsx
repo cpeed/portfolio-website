@@ -33,9 +33,9 @@ function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
                 className={clsx(
-                  " flex p-1 w-full justify-center items-center hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
+                  " flex p-1 w-full justify-center items-center hover:text-gray-950 transition text-gray-500 dark:hover:text-gray-300",
                   {
-                    "text-gray-950 dark:text-gray-200":
+                    "text-gray-950 dark:text-gray-300 ":
                       activeSection === link.name,
                   },
                 )}
