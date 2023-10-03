@@ -89,6 +89,7 @@ function Intro() {
           <HiDownload className=" opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
+          aria-label="LinkedIn"
           href="https://www.linkedin.com/in/areeb-ahmed-5b3872157/"
           target="_blank"
           className="flex bg-white text-gray-700 p-4 rounded-full items-center outline-none focus:scale-[1.15] hover:scale-[1.15]  active:scale-110 transition border border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
@@ -96,6 +97,7 @@ function Intro() {
           <FaLinkedin />
         </a>
         <a
+          aria-label="GitHub"
           href="https://github.com/cpeed"
           target="_blank"
           className="flex bg-white text-gray-700 p-4 rounded-full items-center outline-none focus:scale-[1.15] hover:scale-[1.15]  active:scale-110 transition border border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
