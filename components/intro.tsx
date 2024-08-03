@@ -8,6 +8,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
+import image from "../public/pfp.jpg";
 function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const ref = useSectionInView("Home");
@@ -26,7 +27,7 @@ function Intro() {
           >
             <Image
               alt="Cpeed Portrait"
-              src={"https://avatars.githubusercontent.com/u/77393185?s=96&v=4"}
+              src={image}
               width={192}
               height={192}
               priority={true}
@@ -54,7 +55,7 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Cpeed.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Nathan.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">8 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
